@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: odevsa-marknote
+category: files
+name: MarkNote
+version: "0.1.0"
+tagline: Modern self-hosted Markdown note-taking app with live preview & instant search
+description: >-
+  MarkNote is a modern, privacy-focused, self-hosted note-taking web application built with SvelteKit and Rust (Axum).
+  Features include a sleek dark UI, split-pane Markdown editor with live preview, real-time search, tagging, custom themes, and fast SQLite storage.
+developer: odevsa
+website: https://github.com/odevsa/marknote
+repo: https://github.com/odevsa/marknote
+support: https://github.com/odevsa/marknote/issues
+port: 3980
+gallery:
+  - https://raw.githubusercontent.com/odevsa/marknote/main/assets/screenshot-1.png
+  - https://raw.githubusercontent.com/odevsa/marknote/main/assets/screenshot-2.png
+  - https://raw.githubusercontent.com/odevsa/marknote/main/assets/screenshot-3.png
+  - https://raw.githubusercontent.com/odevsa/marknote/main/assets/screenshot-4.png
+path: ""
+defaultPassword: ""

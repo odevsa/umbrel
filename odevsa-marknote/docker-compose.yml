@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  app:
+    image: odevsa/marknote:latest
+    container_name: odevsa-marknote
+    restart: on-failure
+    environment:
+      - PORT=3000
+      - HOST=0.0.0.0
+      - DATA_DIR=/app/data/base
+      - NOTES_DIR=/app/data/notes
+      - JWT_SECRET=${APP_PASSWORD}
+    volumes:
+      - ${APP_DATA_DIR}/data/base:/app/data/base
+      - ${UMBREL_ROOT}/home/Notes:/app/data/notes
+
+  app_proxy:
+    environment:
+      APP_HOST: odevsa-marknote
+      APP_PORT: 3000
