@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app:
     image: odevsa/marknote:latest
-    container_name: odevsa-marknote
+    container_name: marknote
     restart: on-failure
     environment:
       - PORT=3000
@@ -17,5 +17,5 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: odevsa-marknote
+      APP_HOST: marknote
       APP_PORT: 3000
