@@ -2,7 +2,7 @@ manifestVersion: 1
 id: odevsa-marknote
 category: files
 name: MarkNote
-version: "0.1.0"
+version: "0.1.1"
 tagline: Modern self-hosted Markdown note-taking app with live preview & instant search
 icon: https://raw.githubusercontent.com/odevsa/umbrel/refs/heads/main/odevsa-marknote/icon.png
 description: >-
