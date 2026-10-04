@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: odevsa-monolai
+category: ai
+name: Monolai
+version: "0.1.1"
+tagline: Lightweight local AI model manager and OpenAI-compatible runtime
+icon: https://raw.githubusercontent.com/odevsa/umbrel/refs/heads/main/odevsa-monolai/icon.png
+description: >-
+  Monolai is a lightweight, local AI model manager and OpenAI-compatible runtime built with Rust and SvelteKit.
+  Run local models (GGUF) privately on your hardware with automatic GPU detection (CUDA, ROCm, Vulkan) and multi-threaded CPU fallback.
+  Features include automated runtime management (llama.cpp, stable-diffusion.cpp), drop-in OpenAI-compatible API (/v1/chat/completions), real-time hardware telemetry (CPU, RAM, GPU), and a modern Web UI.
+developer: odevsa
+website: https://github.com/odevsa/monolai
+repo: https://github.com/odevsa/monolai
+support: https://github.com/odevsa/monolai/issues
+port: 3981
+gallery:
+  - https://raw.githubusercontent.com/odevsa/umbrel/refs/heads/main/odevsa-monolai/screenshot-1.png
+  - https://raw.githubusercontent.com/odevsa/umbrel/refs/heads/main/odevsa-monolai/screenshot-2.png
+  - https://raw.githubusercontent.com/odevsa/umbrel/refs/heads/main/odevsa-monolai/screenshot-3.png
+path: ""
+defaultPassword: ""
