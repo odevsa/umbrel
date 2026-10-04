@@ -2,7 +2,7 @@ manifestVersion: 1
 id: odevsa-monolai
 category: ai
 name: Monolai
-version: "0.1.1"
+version: "0.1.2"
 tagline: Lightweight local AI model manager and OpenAI-compatible runtime
 icon: https://raw.githubusercontent.com/odevsa/umbrel/refs/heads/main/odevsa-monolai/icon.png
 description: >-
@@ -13,10 +13,11 @@ developer: odevsa
 website: https://github.com/odevsa/monolai
 repo: https://github.com/odevsa/monolai
 support: https://github.com/odevsa/monolai/issues
-port: 3981
+port: 3989
 gallery:
-  - https://raw.githubusercontent.com/odevsa/umbrel/refs/heads/main/odevsa-monolai/screenshot-1.png
-  - https://raw.githubusercontent.com/odevsa/umbrel/refs/heads/main/odevsa-monolai/screenshot-2.png
-  - https://raw.githubusercontent.com/odevsa/umbrel/refs/heads/main/odevsa-monolai/screenshot-3.png
+  - https://raw.githubusercontent.com/odevsa/monolai/main/assets/screenshot-1.png
+  - https://raw.githubusercontent.com/odevsa/monolai/main/assets/screenshot-2.png
+  - https://raw.githubusercontent.com/odevsa/monolai/main/assets/screenshot-3.png
+  - https://raw.githubusercontent.com/odevsa/monolai/main/assets/screenshot-4.png
 path: ""
 defaultPassword: ""
