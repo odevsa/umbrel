@@ -2,7 +2,7 @@ manifestVersion: 1
 id: odevsa-monolai
 category: ai
 name: Monolai
-version: "0.2.0"
+version: "0.2.1"
 tagline: Lightweight local AI model manager and OpenAI-compatible runtime
 icon: https://raw.githubusercontent.com/odevsa/umbrel/refs/heads/main/odevsa-monolai/icon.png
 description: >-
