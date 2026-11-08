@@ -2,8 +2,7 @@ name: Scheduled Update
 
 on:
   schedule:
-    # 03:00 UTC = 00:00 Horário de Brasília (Meia-noite)
-    - cron: "0 3 * * *"
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
 permissions:
